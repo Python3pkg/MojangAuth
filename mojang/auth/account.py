@@ -1,6 +1,6 @@
 __author__ = 'Gareth Coles'
 
-from network import do_authentication, do_refresh, do_invalidate, do_signout, \
+from .network import do_authentication, do_refresh, do_invalidate, do_signout, \
     do_validate
 
 

@@ -3,8 +3,8 @@ __author__ = 'Gareth Coles'
 import json
 import requests
 
-from constants import *
-from exceptions import MethodNotAllowedException, NotFoundException, \
+from .constants import *
+from .exceptions import MethodNotAllowedException, NotFoundException, \
     ForbiddenOperationException, IllegalArgumentException, \
     UnsupportedMediaTypeException, UnknownException
 
